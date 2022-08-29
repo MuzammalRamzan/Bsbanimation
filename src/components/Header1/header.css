@@ -1,0 +1,73 @@
+.headerDiv{
+    width: 100% !important;
+}
+.upperContainer{
+    position: absolute;
+    top: 0px;
+}
+.inpoClass{
+    outline: none !important;
+}
+.btnInpo_head_div{
+    width: 100%;
+}
+.btnInpo_head_div>button{
+    margin-right: 10px;
+    width: 30%;
+}
+.btnInpo_head_div>div{
+    width: 70%;
+    padding: 6px;
+/* width: 390px; */
+}
+.btnInpo_head_div>div>input{
+width: 95%;
+}
+.btnInpo_head_div>div>i{
+    width: 5%;
+margin-left: 10px;
+}
+.col_2{
+    width: 80% !important;
+}
+.col_1{
+    width: 20% !important;
+}
+.fontWeightSmall{
+    font-size: small;
+}
+
+.footersmallcard{
+    width: 160px !important;
+}
+
+
+
+
+
+@media(max-width:810px){
+    .btnInpo_head_div>button{
+        font-size:small;
+    }
+ }
+ @media(max-width:767px){
+    .btnInpo_head_div{
+        display: flex;
+        justify-content: center !important;
+    }
+    .btnInpo_head_div>button{
+        margin-bottom: 10px ;
+    }
+    .btnInpo_head_div>div{
+        width: 95%;
+    }
+    .col_1{
+        width: 80% !important;
+    }
+    .col_2{
+width: 100% !important;
+    }
+ }
+ .mobileMargin_for_c2{
+     margin-top: 50px !important;
+ }

@@ -1,0 +1,260 @@
+ 
+ 
+ .App-header {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+
+  .copy {
+    height: 50px;
+    width: auto;
+    padding: 10px 0px;
+    cursor: pointer;
+    border-right: 1px rgb(221, 195, 46) solid;
+    border-top: 1px rgb(221, 195, 46) solid;
+    border-bottom: 1px rgb(221, 195, 46) solid;
+    border-left: 1px transparent solid;
+  }
+  .dashheading{
+    margin: 4rem 0rem 0rem ;
+    padding: 0;
+  }
+  .dashheading h1{
+    display: flex;
+    align-items: flex-start;
+    font-weight: 700;
+  }
+  .dashheading p{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15pt;
+  }
+
+  .dashreferral{
+    margin: 0rem 0rem 4rem ;
+    padding: 0;
+    display: flex;
+  }
+
+  .dashreferral span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border:  1px yellow solid;
+    background-color: rgb(221, 195, 46);
+    font-weight: 700;
+    margin: 0;
+    padding: 0em 1.25em;
+    font-size: 13pt;
+  }
+  .dashreferral input{
+    margin: 0;
+    padding: 0em 1em;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: black;
+    border-left:  1px rgb(221, 195, 46) solid;
+    border-bottom:  1px rgb(221, 195, 46) solid;
+    border-top:  1px rgb(221, 195, 46) solid;
+    border-radius:  1px transparent solid;
+
+  }
+  .dashdetail{
+    padding-right: 0rem;
+  }
+  .dashtext{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13pt;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+  }
+  .dashnumebr{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 22pt;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+  }
+ .dashdmarket{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 17pt;
+  font-weight: 500;
+  margin: 3rem 0rem 1rem;
+  padding: 0;
+ }
+ .dashrates{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+  /* background-color: saddlebrown; */
+ }
+
+ .dashrates span{
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  font-size: 10pt;
+ }
+ .dashrates p{
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  font-size: 15pt;
+  padding: 1px;
+  margin: 1px 0px;
+ }
+
+ @media (max-width: 1092px) {
+  .dashreferral{
+    margin: 1rem 0rem 0.2rem ;
+    padding: 0;
+    display: flex;
+  }
+  
+  .dashreferral span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border:  1px yellow solid;
+    background-color: rgb(221, 195, 46);
+    font-weight: 700;
+    margin: 0;
+    padding: 0em 1em;
+    font-size: 10pt;
+  }
+  .dashdetail{
+    padding-right: 0rem;
+    margin: 1.5rem 0.5rem;
+  }
+  .dashrates{
+    display: flex;
+    justify-content: flex-start;
+    margin : 0rem 0.2 3rem;
+    /* background-color: saddlebrown; */
+   }
+  
+   .dashrates span{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    font-size: 10pt;
+   }
+   .dashrates p{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 15pt;
+    padding: 1px;
+    margin: 1px 0px;
+   }
+   .dashrates .col-sm{
+    margin: 1rem 2rem;
+  }
+  .dashrates .col-sm-5{
+    padding: 5px;
+  }
+  .dashheading h1{
+    display: flex;
+    align-items: flex-start;
+    font-weight: 700;
+    
+  }
+  .dashheading p{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15pt;
+    padding: 0 2px 0;
+  }
+ }
+ @media (max-width: 600px) {
+    
+
+.copy {
+  height: 50px;
+  width: auto;
+  padding: 15px 0px;
+  cursor: pointer;
+  border-right: 1px rgb(221, 195, 46) solid;
+  border-top: 1px rgb(221, 195, 46) solid;
+  border-bottom: 1px rgb(221, 195, 46) solid;
+  border-left: 1px transparent solid;
+}
+
+.dashheading h1{
+  display: flex;
+  align-items: flex-start;
+  font-weight: 600;
+  
+}
+.dashheading p{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14pt;
+}
+.dashreferral{
+  margin: 1rem 0.2rem 0.2rem ;
+  padding: 0;
+  display: flex;
+}
+
+.dashreferral span{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border:  1px yellow solid;
+  background-color: rgb(221, 195, 46);
+  font-weight: 700;
+  margin: 0 0.2rem;
+  padding: 0em 1.25em;
+  font-size: 13pt;
+}
+.dashreferral input{
+  margin: 0 0.2rem;;
+  padding: 0em 1em;
+  width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: black;
+  border-left:  1px rgb(221, 195, 46) solid;
+  border-bottom:  1px rgb(221, 195, 46) solid;
+  border-top:  1px rgb(221, 195, 46) solid;
+  border-radius:  1px transparent solid;
+
+}
+
+.dashnumebr{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 22pt;
+  font-weight: 700;
+  padding: 0;
+  margin: 0 0.2rem;;
+}
+.dashdmarket{
+display: flex;
+justify-content: flex-start;
+font-size: 17pt;
+font-weight: 500;
+margin: 3rem 0.2rem 1rem;
+padding: 0;
+}
+.dashrates .col-md{
+  margin: 1rem 2rem;
+}
+
+ }

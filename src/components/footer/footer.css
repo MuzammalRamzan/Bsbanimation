@@ -1,0 +1,43 @@
+
+.Navbar{
+    width: 100%;
+    height: auto;
+    display: flex; 
+    background-color: rgb(75, 64, 56);
+    color: rgb(221, 195, 46);
+    padding: 0;
+    margin: 0;
+}
+
+.Navbar .leftSide{
+flex: 50%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin: 0px;
+}
+
+
+.Navbar .leftSide span{
+    padding: 5;
+    font-size: 10pt;
+    }
+    
+
+.Navbar .rightSide{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+}
+.Navbar .rightSide img{
+    margin: 5px 0px 0px;
+    height: 50px;
+    width: auto;
+}
+
+.footer-title{
+    font-size: 22pt;
+    font-weight: 700;
+}

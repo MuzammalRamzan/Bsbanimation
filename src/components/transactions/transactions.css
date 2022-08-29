@@ -1,0 +1,147 @@
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.Navbar{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(75, 64, 56);
+}
+.Navbar .rightSide h1{  
+    color: white;
+    margin: 0 5rem 0;
+}
+.transactbuy h3{
+    display: flex;
+    justify-content: flex-start;
+    margin: 4rem 0 0 0;
+}
+.transactbuy hr{
+    display: flex;
+    justify-content: flex-start;
+    width:60%;
+    border: 1px black solid;
+    text-align:left;
+    margin-left:0;
+}
+.transactbuy span{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15pt;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.transactbuy h1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.transactinput{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+.transactinput input{
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 2rem 0 ;
+}
+.calculatorimg{
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 2rem 0 ;
+    width: auto;
+    height: 35px;
+    padding: 1px;
+}
+.transactrecieve{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.transactrecieve p{
+    display: inline-flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 13pt;
+    margin: 0;
+    padding: 0;
+}
+
+.transactrecieve h1{
+    display: inline-flex;
+    font-size: 55pt;
+    margin: 0;
+    padding: 0;
+    /* background-color: blueviolet; */
+}
+.transactrecieve input{
+    display: inline-flex;
+    font-size: 55pt;
+    margin: 0;
+    padding: 0;
+    /* background-color: blueviolet; */
+    margin: 0;
+    padding: 0em 1em;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: black;
+    border-left:  1px rgb(221, 195, 46) solid;
+    border-bottom:  1px rgb(221, 195, 46) solid;
+    border-top:  1px rgb(221, 195, 46) solid;
+    border-radius:  1px transparent solid;
+}
+
+.transactrecieve span{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+    font-size: 13pt;
+    margin: 0;
+    padding: 8px 0;
+    font-weight: 500;
+    /* background-color: rgb(143, 155, 34); */
+}
+.transactrecieve button{
+    display: flex;
+    justify-content: center;
+    font-size: 18pt;
+    width: 60%;
+    margin: 1rem 0;
+    font-weight: 700;
+    /* background-color: rgb(143, 155, 34); */
+}
+.accounttransactions{
+    margin-top: 10px;
+    width: 600px !important;
+}
+@media (max-width: 600px) {
+    .Navbar .rightSide h1{  
+        color: white;
+        margin: 0 1rem 0;
+    }
+    .accounttransactions{
+        margin-top: 10px;
+        width: 100% !important;
+        font-size:small !important;
+    }
+    .accounttransactions .col{
+        margin-left: -18px !important;
+    }
+    .No{
+        margin-left: 15px !important;
+    }
+}

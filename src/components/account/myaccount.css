@@ -1,0 +1,111 @@
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.Navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(75, 64, 56);
+}
+.Navbar .rightSide h1{  
+    color: white;
+}
+.accounttime{
+    display: flex;
+    justify-content: flex-start;
+    margin: 4rem 0rem 0rem;
+    /* background-color: tomato; */
+}
+.accounttime span{
+    font-size: 15pt;
+    font-style: italic;
+}
+.accounttime p{
+    font-size: 15pt;
+    font-weight: 500;
+}
+.accountbalance{ 
+    display: flex;
+    justify-content: flex-start;
+}
+.accountbalance h1{
+    display: inline-flex;
+    justify-content: flex-start;
+    font-size: 55pt;
+}
+.accountbalance span{
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 0px 15px;
+}
+.accounthistory h4{
+    display: flex;
+    justify-content: flex-start;
+    margin: 3rem 0 0 0;
+    padding: 0;
+    font-size: 15pt;
+    /* background-color: thistle; */
+}
+.accounthistory p{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    font-size: 15pt;
+}
+.accounttransactions p{
+    display: flex;
+    justify-content: flex-start;
+    margin: 3rem 0 0 0;
+    font-weight: 600;
+}
+.accounttransactions span{
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 1092px) {
+    .accounttime{
+        display: flex;
+        justify-content: flex-start;
+        margin: 4rem 0rem 0rem;
+        /* background-color: tomato; */
+    }
+    .accounttime span{
+        font-size: 13pt;
+        font-style: italic;
+    }
+    .accounttime p{
+        font-size: 13pt;
+        padding: 0px;
+    }
+    .accountBtn{
+        width: 100% !important;
+    }
+}
+@media (max-width: 600px) {
+    .accounttime{
+        display: flex;
+        justify-content: flex-start;
+        margin: 4rem 0rem 0rem;
+        /* background-color: tomato; */
+    }
+    .accounttime span{
+        font-size: 11pt;
+        font-style: italic;
+    }
+    .accounttime p{
+        font-size: 11pt;
+        padding: 0px;
+    }
+    .accountBtn{
+        width: 100% !important;
+    }
+    .accountBtn{
+        width: 100% !important;
+        font-weight: normal !important;
+        padding: 2px !important;
+    }
+}
